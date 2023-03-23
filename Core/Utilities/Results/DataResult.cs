@@ -15,7 +15,7 @@ namespace Core.Utilities.Results
             Data = data;
         }
 
-        public DataResult(T data, bool succes) : base(succes)
+        public DataResult(T data, bool success) : base(success)
         {
             Data = data;
         }
